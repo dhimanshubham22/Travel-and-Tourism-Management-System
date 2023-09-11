@@ -1,0 +1,38 @@
+@charset "ISO-8859-1";
+body {
+    background-color: papayawhip;
+}
+
+.navbar {
+    background: linear-gradient(to left, #343a40, #007bff);
+}
+
+/* Style the navbar brand */
+.navbar-brand {
+    font-size: 24px;
+    color: #fff;
+}
+
+/* Style the user greeting */
+.user-greeting {
+    color: #fff;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+/* Style the navigation links */
+.navbar-nav .nav-item {
+    margin-right: 10px;
+}
+
+.navbar-nav .nav-item a {
+    background-color: #007bff;
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.navbar-nav .nav-item a:hover {
+    background-color: #0056b3;
+}

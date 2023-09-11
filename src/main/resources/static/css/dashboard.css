@@ -1,0 +1,46 @@
+@charset "ISO-8859-1";
+body {
+    background-image: url('/images/bus.jpg');
+}
+.navbar {
+            background-color: #343a40; /* Dark background color */
+        }
+
+        /* Style the navbar brand */
+        .navbar-brand {
+            font-size: 24px;
+            color: #fff; /* Text color */
+        }
+
+        /* Style the user greeting */
+        .user-greeting {
+            color: #fff; /* Text color */
+            font-size: 16px;
+            margin-left: 10px;
+        }
+
+        /* Style the navigation links */
+        .navbar-nav .nav-item {
+            margin-right: 10px;
+        }
+
+        .navbar-nav .nav-item a {
+            background-color: #007bff; /* Button background color */
+            color: #fff; /* Button text color */
+            padding: 6px 12px;
+            border-radius: 4px; /* Rounded corners */
+            text-decoration: none; /* Remove underlines */
+        }
+
+        .navbar-nav .nav-item a:hover {
+            background-color: #0056b3; /* Hover background color */
+        }
+.my-alert {
+    background-color: #cce5ff; /* Blue background color for alert-info */
+    padding: 0.75rem 1.25rem; /* Padding for the alert */
+    margin-top: 1rem; /* Margin-top for spacing */
+    border: 1px solid #b8daff; /* Border for the alert */
+    border-radius: 0.25rem; /* Border radius for rounded corners */
+    color: #004085; /* Text color for alert-info */
+}
+     

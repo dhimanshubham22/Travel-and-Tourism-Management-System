@@ -1,0 +1,90 @@
+@charset "ISO-8859-1";
+body {
+    background-image: url('/images/bg1.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+
+/* Center-align the main content and adjust spacing */
+.container {
+    text-align: center;
+    margin-top: 2px;
+}
+
+/* Style the login and registration links */
+a {
+    text-decoration: none;
+    color: #007bff; /* Change the link color to blue */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Style the footer */
+footer {
+    background-color: black;/* Dark background color with 80% opacity */
+    opacity: 100%;
+    color: #ffffff; /* White text color */
+}
+
+/* Style for the navbar animation and transparency */
+.navbar {
+    transition: top 0.3s;
+    background-color: rgba(0, 0, 0, 0.5); /* Transparent background with 50% opacity */
+}
+
+/* Center the buttons */
+.center-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Make the container take up the full viewport height */
+}
+
+/* Style for the large animated buttons */
+.large-button {
+    font-size: 24px;
+    padding: 15px 30px;
+    margin: 10px;
+    border-radius: 50px;
+    text-align: center;
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.navbar {
+            background-color: transparent !important; /* Set the background color to transparent */
+            border: none; /* Remove the border */
+            box-shadow: none; /* Remove any box shadow */
+        }
+        
+        /* Style the navbar links */
+        .navbar-dark .navbar-nav .nav-link {
+            color: #fff; /* Set the text color to white */
+        }
+        
+        /* Style the navbar brand text */
+        .navbar-dark .navbar-brand {
+            color: #fff; /* Set the text color to white */
+        }
+        /* Sticky Footer */
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        main {
+            flex: 1;
+        }
+
+        /* Style the footer */
+        .footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }

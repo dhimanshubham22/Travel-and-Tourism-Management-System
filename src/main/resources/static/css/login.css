@@ -1,0 +1,73 @@
+@charset "ISO-8859-1";
+body {
+    background-image: url('/images/login.jpeg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+/* Style the form container */
+        .form-container {
+            background-color: rgba(255, 255, 255, 0.8); /* Add transparency */
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px; 
+        }
+
+        /* Style the card */
+        .login-card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        /* Style the form elements */
+        .form-group label {
+            font-weight: bold;
+        }
+
+        /* Style the submit button */
+        .btn-login {
+            background-color: #007bff;
+            color: white;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-login:hover {
+            background-color: #ff5722;
+        }
+        .card {
+        background-color: whitesmoke; /* Set the card background color to white */
+    }
+    .navbar {
+            background-color: transparent !important; /* Set the background color to transparent */
+            border: none; /* Remove the border */
+            box-shadow: none; /* Remove any box shadow */
+        }
+        
+        /* Style the navbar links */
+        .navbar-dark .navbar-nav .nav-link {
+            color: #fff; /* Set the text color to white */
+        }
+        
+        /* Style the navbar brand text */
+        .navbar-dark .navbar-brand {
+            color: #fff; /* Set the text color to white */
+        }
+
+ /* Sticky Footer */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+/* Style the sticky footer */
+.sticky-footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: sticky;
+    bottom: 0;
+}

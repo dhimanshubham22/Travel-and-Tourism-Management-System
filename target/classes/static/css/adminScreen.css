@@ -1,0 +1,67 @@
+@charset "ISO-8859-1";
+body {
+    background-image: url('/images/busadmin.jpg');
+    background-size: cover;
+}
+.navbar {
+    background: linear-gradient(to left, #343a40, #007bff); /* Gradient background */
+}
+
+       /* Style the navbar brand */
+        .navbar-brand {
+            font-size: 24px;
+            color: #fff; /* Text color */
+        }
+
+        /* Style the user greeting */
+        .user-greeting {
+            color: #fff; /* Text color */
+            font-size: 16px;
+            margin-left: 10px;
+        }
+
+        /* Style the navigation links */
+        .navbar-nav .nav-item {
+            margin-right: 10px;
+        }
+
+        .navbar-nav .nav-item a {
+            background-color: #007bff; /* Button background color */
+            color: #fff; /* Button text color */
+            padding: 6px 12px;
+            border-radius: 4px; /* Rounded corners */
+            text-decoration: none; /* Remove underlines */
+        }
+
+        .navbar-nav .nav-item a:hover {
+            background-color: #0056b3; /* Hover background color */
+        }
+/* Label styles */
+label {
+    color: orangered; /* Change to your preferred label color */
+    font-weight: bold; /* Make labels bold if desired */
+    	font-family: 'Arial', sans-serif; text-transform: uppercase;
+
+}
+
+/* Input styles */
+input[type="text"],
+input[type="date"],
+input[type="number"],
+input[type="time"] {
+    border: 1px solid #ccc; /* Add a subtle border */
+    padding: 8px; /* Add some padding for spacing */
+    border-radius: 5px; /* Add rounded corners */
+    color: #555; /* Change to your preferred input text color */
+}
+
+/* Optional: Highlight inputs on focus */
+input[type="text"]:focus,
+input[type="date"]:focus,
+input[type="number"]:focus,
+input[type="time"]:focus {
+    border: 1px solid #007bff; /* Change to your preferred focus color */
+}
+.text-center{
+color: #007bff; font-family: 'Helvetica Neue', sans-serif; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);text-transform: uppercase;
+}
